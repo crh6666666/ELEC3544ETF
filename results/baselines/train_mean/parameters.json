@@ -1,0 +1,8 @@
+{
+  "prediction": 0.0016620930875463407,
+  "fit_partition": "train_only_pooled_across_etfs",
+  "training_rows": 1683,
+  "training_labels_through": "2023-12-26T14:30:00+00:00",
+  "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+  "note": "Training metrics are in-sample references, not historical tradable signals."
+}

@@ -1,0 +1,5 @@
+method,period,mean_weekly_rank_ic,mean_top3_overlap,weeks,valid_rank_ic_weeks,constant_score_weeks,constant_actual_weeks
+return_5_baseline,2024_development,-0.05597147950089125,0.2549019607843137,51,51,0,0
+xgb_regression,2024_development,0.017796971181289298,0.32026143790849676,51,51,0,0
+xgb_ranker,2024_development,0.0695513993219129,0.2679738562091504,51,51,0,0
+historical_rmse_reference,2024_development,0.012530044595399782,0.29411764705882354,51,51,0,0

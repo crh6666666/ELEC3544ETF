@@ -1,0 +1,394 @@
+{
+  "generated_at_utc": "2026-11-05T08:26:09.537770+00:00",
+  "status": "retrospective_price_return_simulation_hypothetical_costs",
+  "scored_2025": false,
+  "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+  "input_sha256": {
+    "experiments/sector_ranking/03_walk_forward/run_01/experiment.json": "782717123fed286c49f63744139494bc48772ea3f4f9505318a8cad6525a473b",
+    "experiments/sector_ranking/03_walk_forward/run_01/eval_scores.csv": "bc6f07e60c14c53ef9839be0620d741a1c663c8d31076dff41bc514a70163e88",
+    "experiments/sector_ranking/03_walk_forward/run_01/phase_audit.csv": "29436839d7e0601d6b392d7a15419c6132ab840d6dd98b176956924be2d21f33",
+    "experiments/sector_ranking/03_walk_forward/run_01/weekly_metrics.csv": "14c47f245406399110caa43af76bf494b75133cc31b5ed61fd36c1eacd3715f9",
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "experiments/sector_ranking/04_portfolio_comparison/run.py": "0f7a44f9ab74019215ec09606126e1523a1dc2135be2cdd5f81fb846373c8c06",
+    "experiments/sector_ranking/04_portfolio_comparison/DESIGN.md": "30475fb59bc1506040ff036c8c8fb70cc0c338810acec0651e444c3e21369c36",
+    "plot_portfolio.py": "40c577ff7585ed783b1e93aa1f6454e3202093ac09fa0175a358774260a59de5"
+  },
+  "output_sha256": {
+    "summary.csv": "17f317f640362090df1ddc7e4d42a52eab58bfe560899c50ebc3e8dbfd9de379",
+    "top3_comparison.csv": "18cad1331068ae56ec6c56f2246419b3724352ff6415b2f0c3f003ca2cb01bac",
+    "spot_checks.csv": "39fc672155f7c419ab51be174cb45c3fc4e2ac9fc35c88bd8400d8be28ea8f1d",
+    "asset_trades.csv": "a06987727e667064ade36ab770c78f7e2b9d525cff1196e7fe883b0d3ca0fb89",
+    "cash_matching.csv": "a3a91db93a03f17d3ed1d29291e4ce4a941999a4b08c19d3d2562999e127355d",
+    "cost_sensitivity.csv": "c9698b7ba32a9b51155beb215609db68225d75d88c4a5986cef39eb79ee8760c",
+    "trades.csv": "3f1d5a873c72856b964752695a12d514dcb86b79f21dc7345be3c68fdd100c6e",
+    "weekly_holdings.csv": "803954b45d251f3077180c617955f5f86bac20f6ee5eac43a347541434fb0d8c",
+    "cash_differences.csv": "59caa1c7151f8858dea18ca98e7e73e1bf3e5099803ccf77176423248100d5aa",
+    "daily_nav.csv": "e761ededc13231201d485df57201c63e7a46f9509884783b39269169cfd4c9a8"
+  },
+  "source_features": {
+    "A": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5"
+    ],
+    "B": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "volatility_20",
+      "relative_volume_20"
+    ],
+    "C": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5"
+    ],
+    "D": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "volatility_20",
+      "relative_volume_20"
+    ]
+  },
+  "model_parameters_by_window": {
+    "W1": {
+      "A": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      },
+      "B": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 3,
+          "n_estimators": 100
+        }
+      },
+      "C": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 3,
+          "n_estimators": 100
+        }
+      },
+      "D": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 3,
+          "n_estimators": 100
+        }
+      }
+    },
+    "W2": {
+      "A": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 2,
+          "n_estimators": 50
+        }
+      },
+      "B": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 2,
+          "n_estimators": 50
+        }
+      },
+      "C": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      },
+      "D": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 3,
+          "n_estimators": 100
+        }
+      }
+    },
+    "W3": {
+      "A": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 3,
+          "n_estimators": 50
+        }
+      },
+      "B": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "reg:squarederror",
+          "max_depth": 2,
+          "n_estimators": 100
+        }
+      },
+      "C": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 3,
+          "n_estimators": 50
+        }
+      },
+      "D": {
+        "features": [
+          "return_5",
+          "volatility_5",
+          "price_ma_5",
+          "activity_5",
+          "relative_spy_return_20",
+          "volatility_20",
+          "relative_volume_20"
+        ],
+        "parameters": {
+          "learning_rate": 0.03,
+          "min_child_weight": 10,
+          "reg_lambda": 10,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": 1,
+          "objective": "rank:pairwise",
+          "lambdarank_pair_method": "topk",
+          "lambdarank_num_pair_per_sample": 11,
+          "max_depth": 3,
+          "n_estimators": 100
+        }
+      }
+    }
+  },
+  "source_seed": 42,
+  "strategy_rules": {
+    "top3": "100% split equally among top three; ticker ascending on ties",
+    "equal_weight": "100% split equally among 11 ETFs",
+    "positive": "B score > 0 gives 1/11 weight, remainder cash",
+    "matched": "B positive strategy total weight spread across 11 ETFs"
+  },
+  "costs_bps": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "main_cost_bps": 10,
+  "initial_nav": 1,
+  "fractional_shares": true,
+  "valuation": "split-adjusted daily Open, excluding cash dividends",
+  "windows": [
+    {
+      "Window": "W1",
+      "Segment": "1",
+      "StartOpen": "2023-07-10",
+      "EndOpen": "2023-12-26",
+      "Weeks": "24"
+    },
+    {
+      "Window": "W2",
+      "Segment": "1",
+      "StartOpen": "2024-01-08",
+      "EndOpen": "2024-06-24",
+      "Weeks": "24"
+    },
+    {
+      "Window": "W3",
+      "Segment": "1",
+      "StartOpen": "2024-07-08",
+      "EndOpen": "2024-12-30",
+      "Weeks": "25"
+    }
+  ],
+  "cash_interest": 0,
+  "rebalance_on": "EntryDate open",
+  "liquidate_at": "last ExitDate open",
+  "turnover": "sum of absolute asset notional / pre-trade NAV, both sides, including entry and exit"
+}

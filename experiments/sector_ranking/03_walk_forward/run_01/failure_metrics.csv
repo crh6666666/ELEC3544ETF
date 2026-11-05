@@ -1,0 +1,6 @@
+SignalDate,rank_ic,rank_ic_undefined_reason,constant_score,constant_actual,predicted_top3,actual_top3,top3_hits,top3_overlap,window,method
+2024-06-07,0.47272727272727266,,False,False,XLK XLV XLC,XLK XLRE XLY,1,0.3333333333333333,W2,return_5_baseline
+2024-06-07,-0.13419721785727312,,False,False,XLE XLB XLK,XLK XLRE XLY,1,0.3333333333333333,W2,A
+2024-06-07,-0.664213340109457,,False,False,XLE XLI XLB,XLK XLRE XLY,0,0.0,W2,B
+2024-06-07,-0.718181818181818,,False,False,XLF XLE XLP,XLK XLRE XLY,0,0.0,W2,C
+2024-06-07,-0.6727272727272725,,False,False,XLE XLF XLV,XLK XLRE XLY,0,0.0,W2,D

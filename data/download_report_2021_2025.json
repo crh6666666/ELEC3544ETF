@@ -1,0 +1,36 @@
+{
+  "start": "2021-01-01",
+  "end_exclusive": "2026-01-01",
+  "raw_folders": [
+    "raw_2021_2025"
+  ],
+  "supplement_tables": [],
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "snapshot_policy": "complete-range refresh, one response per asset; old snapshots preserved",
+  "backup": "archives/before_2021_2025_20261104_161653",
+  "fetched_utc": "2026-11-04T08:17:00.958951+00:00",
+  "fetched_through_utc": "2026-11-04T08:17:01.677637+00:00",
+  "etf_rows": 13805,
+  "spy_rows": 1255,
+  "events": 245,
+  "old_period_max_relative_differences": {
+    "Open": 0.0,
+    "High": 0.0,
+    "Low": 0.0,
+    "Close": 0.0,
+    "Adj Close": 6.107017169743045e-07,
+    "Volume": 0.0
+  },
+  "hashes": {
+    "daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+    "corporate_actions.csv": "638f132390b733c45c3950b0a86d59bb18e6d0935cb356d3905a0fe89af0a27a",
+    "dataset_manifest.json": "492355504976626fb143b5366f42026ad9a462df3b6a46398621481f5d0a5036"
+  }
+}

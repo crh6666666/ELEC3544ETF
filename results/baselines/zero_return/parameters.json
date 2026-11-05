@@ -1,0 +1,8 @@
+{
+  "prediction": 0.0,
+  "fit_partition": "none",
+  "training_rows": 0,
+  "training_labels_through": null,
+  "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+  "note": "Training metrics are in-sample references, not historical tradable signals."
+}

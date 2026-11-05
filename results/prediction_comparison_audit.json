@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-11-04T17:41:12.363885+00:00",
+  "models": [
+    "ridge",
+    "random_forest",
+    "xgboost"
+  ],
+  "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+  "input_files_sha256": {
+    "/Users/chenruihan/Desktop/ELEC3544ETF/prepared_data/weekly_candidates.csv": "8502819b5985e352890697cd07f06520f25e52d6529406c23c7c2c9fef204677",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/ridge/predictions.csv": "9fab55ed79aff3709e532a4cdbf94a7bd3d294ec65cee0384a7c7c5991da8785",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/ridge/debug_run.json": "bbc7d98bce251238303152249b8741ef3bf06f4cae12531bbdcded91ab81922f",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/random_forest/predictions.csv": "6e275a18efc3e93920e9dfa4da2f27d6a05a04cad4322128322199ac40bf4b4d",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/random_forest/debug_run.json": "fe9119f1d22be1e4176044c1b49842cd78cc7c4c93ac90e4983375b40bd333f0",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/xgboost/predictions.csv": "610ea4dd4a5cff9169eeb40ac9d97e5a45b8889fe5686bc88ccfb1ad223f6998",
+    "/Users/chenruihan/Desktop/ELEC3544ETF/results/xgboost/debug_run.json": "39971bdaff227e40daa1fc38f3a93bbb1147c5238fb66cb76bee70f82f5c5099"
+  },
+  "script_sha256": "129063f9cb915bb45c230719bc6176249046f65a17dc2bd1bb2083a467785b6d",
+  "baselines": {
+    "zero_return": {
+      "prediction": 0.0,
+      "fit_partition": "none",
+      "training_rows": 0,
+      "training_labels_through": null,
+      "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+      "note": "Training metrics are in-sample references, not historical tradable signals."
+    },
+    "train_mean": {
+      "prediction": 0.0016620930875463407,
+      "fit_partition": "train_only_pooled_across_etfs",
+      "training_rows": 1683,
+      "training_labels_through": "2023-12-26T14:30:00+00:00",
+      "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+      "note": "Training metrics are in-sample references, not historical tradable signals."
+    }
+  },
+  "experiment_status": "retrospective_exploratory",
+  "note": "Metrics recomputed from aligned saved predictions; no model refitting or selection."
+}

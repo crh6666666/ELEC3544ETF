@@ -1,0 +1,294 @@
+{
+  "generated_at_utc": "2026-11-04T18:15:12.516562+00:00",
+  "status": "retrospective_exploratory",
+  "split_design": {
+    "method": "signal_calendar_year_and_labels_realized_within_partition_years",
+    "train": [
+      2021,
+      2022,
+      2023
+    ],
+    "validation": [
+      2024
+    ],
+    "test": [
+      2025
+    ],
+    "status": "retrospective_exploratory; dates fixed before expanded model evaluation"
+  },
+  "variants": {
+    "full": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5"
+    ],
+    "without_return_5": [
+      "volatility_5",
+      "price_ma_5",
+      "activity_5"
+    ]
+  },
+  "parameter_rule": "fixed_original_full_validation_selected_no_retuning",
+  "source_parameters": {
+    "ridge": {
+      "features": [
+        "return_5",
+        "volatility_5",
+        "price_ma_5",
+        "activity_5"
+      ],
+      "alpha": 100.0,
+      "scaler_mean": [
+        0.0021227519904294732,
+        0.011676130448340991,
+        1.0008432031030687,
+        0.9955884147444657
+      ],
+      "scaler_scale": [
+        0.030070796537281227,
+        0.006367841114959605,
+        0.015205695423320358,
+        0.24090962898437676
+      ],
+      "coef": [
+        -0.003428521634753664,
+        0.0006634618961335371,
+        0.0025040678621844844,
+        0.0005743665042290051
+      ],
+      "intercept": 0.0016620930875463568,
+      "fit_partition": "train_only_no_refit",
+      "price_basis": {
+        "version": "price_only_v3",
+        "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+        "feature_prices": "source Close; Volume used only as a within-window ratio",
+        "label_prices": "source Open",
+        "risk_prices": "same open-to-open price returns",
+        "account_prices": "source Open",
+        "benchmark_prices": "source Open",
+        "adjusted_close_usage": "audit only; never a model or account price",
+        "cash_dividends_included": false,
+        "share_unit": "source_split_adjusted_share_units_not_historical_actual_shares",
+        "payment_dates_verified": false,
+        "historical_point_in_time_quotes": false,
+        "split_handling": "source OHLC/Volume coordinate; audited known splits; never adjust twice"
+      },
+      "price_basis_audit_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790"
+    },
+    "random_forest": {
+      "model": "RandomForestRegressor",
+      "selected": {
+        "max_depth": 3,
+        "min_samples_leaf": 20,
+        "validation_mse": 0.0005276545062158963
+      },
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 3,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 20,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 300,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "features": [
+        "return_5",
+        "volatility_5",
+        "price_ma_5",
+        "activity_5"
+      ],
+      "price_basis": {
+        "version": "price_only_v3",
+        "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+        "feature_prices": "source Close; Volume used only as a within-window ratio",
+        "label_prices": "source Open",
+        "risk_prices": "same open-to-open price returns",
+        "account_prices": "source Open",
+        "benchmark_prices": "source Open",
+        "adjusted_close_usage": "audit only; never a model or account price",
+        "cash_dividends_included": false,
+        "share_unit": "source_split_adjusted_share_units_not_historical_actual_shares",
+        "payment_dates_verified": false,
+        "historical_point_in_time_quotes": false,
+        "split_handling": "source OHLC/Volume coordinate; audited known splits; never adjust twice"
+      },
+      "fit_partition": "train_only_no_refit",
+      "experiment_status": "exploratory_2021_2025",
+      "FitAsOfMeaning": "last training label realization; selection availability recorded separately; not wall-clock fit time",
+      "split_design": {
+        "method": "signal_calendar_year_and_labels_realized_within_partition_years",
+        "train": [
+          2021,
+          2022,
+          2023
+        ],
+        "validation": [
+          2024
+        ],
+        "test": [
+          2025
+        ],
+        "status": "retrospective_exploratory; dates fixed before expanded model evaluation"
+      },
+      "feature_importances": {
+        "return_5": 0.3007762404453944,
+        "volatility_5": 0.17979868508624078,
+        "price_ma_5": 0.35223194125592916,
+        "activity_5": 0.16719313321243548
+      }
+    },
+    "xgboost": {
+      "model": "XGBRegressor",
+      "version": "3.4.1",
+      "selected": {
+        "max_depth": 2,
+        "n_estimators": 50,
+        "validation_mse": 0.0005254812800076595
+      },
+      "parameters": {
+        "objective": "reg:squarederror",
+        "base_score": null,
+        "booster": null,
+        "callbacks": null,
+        "colsample_bylevel": null,
+        "colsample_bynode": null,
+        "colsample_bytree": 1.0,
+        "device": null,
+        "early_stopping_rounds": null,
+        "enable_categorical": true,
+        "eval_metric": null,
+        "feature_types": null,
+        "feature_weights": null,
+        "gamma": null,
+        "grow_policy": null,
+        "importance_type": null,
+        "interaction_constraints": null,
+        "learning_rate": 0.03,
+        "max_bin": null,
+        "max_cat_threshold": null,
+        "max_cat_to_onehot": null,
+        "max_delta_step": null,
+        "max_depth": 2,
+        "max_leaves": null,
+        "min_child_weight": 10,
+        "missing": NaN,
+        "monotone_constraints": null,
+        "multi_strategy": null,
+        "n_estimators": 50,
+        "n_jobs": 1,
+        "num_parallel_tree": null,
+        "random_state": 42,
+        "reg_alpha": null,
+        "reg_lambda": 10,
+        "sampling_method": null,
+        "scale_pos_weight": null,
+        "subsample": 1.0,
+        "tree_method": "hist",
+        "validate_parameters": null,
+        "verbosity": null
+      },
+      "features": [
+        "return_5",
+        "volatility_5",
+        "price_ma_5",
+        "activity_5"
+      ],
+      "price_basis": {
+        "version": "price_only_v3",
+        "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+        "feature_prices": "source Close; Volume used only as a within-window ratio",
+        "label_prices": "source Open",
+        "risk_prices": "same open-to-open price returns",
+        "account_prices": "source Open",
+        "benchmark_prices": "source Open",
+        "adjusted_close_usage": "audit only; never a model or account price",
+        "cash_dividends_included": false,
+        "share_unit": "source_split_adjusted_share_units_not_historical_actual_shares",
+        "payment_dates_verified": false,
+        "historical_point_in_time_quotes": false,
+        "split_handling": "source OHLC/Volume coordinate; audited known splits; never adjust twice"
+      },
+      "fit_partition": "train_only_no_refit",
+      "experiment_status": "exploratory_2021_2025",
+      "feature_importances": {
+        "return_5": 0.21140944957733154,
+        "volatility_5": 0.2758762240409851,
+        "price_ma_5": 0.262687087059021,
+        "activity_5": 0.2500271499156952
+      }
+    }
+  },
+  "input_hashes": {
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+    "data/corporate_actions.csv": "638f132390b733c45c3950b0a86d59bb18e6d0935cb356d3905a0fe89af0a27a",
+    "data/dataset_manifest.json": "492355504976626fb143b5366f42026ad9a462df3b6a46398621481f5d0a5036",
+    "data/raw_2021_2025/XLK.json": "ed314bd2e76f100d8e39c0968f75b5e6cab08b8b09e656667159b48dd03500e2",
+    "data/raw_2021_2025/XLF.json": "ca7b1fb72ff90360625d12cc60f0c1370b2295d7d3e970ae0d6bab63021ad1dc",
+    "data/raw_2021_2025/XLV.json": "0e8ca8be1a36faf3f0f28ec9ea050cbcd18a2d17d426b5c5112adaaea340f099",
+    "data/raw_2021_2025/XLY.json": "5ed853bddf2df98c59f40cd0b781b55b97a9bd71e88b4ed7e49c96f33064e0e8",
+    "data/raw_2021_2025/XLP.json": "63e7bb09f2f8f78765de16d10120c4d1f638e6b85895aa15dcb9d2d34568cbf9",
+    "data/raw_2021_2025/XLE.json": "e0c8efad8e334cf677f6e51f7813ee933b191110211366cd44b200ed57a5cf66",
+    "data/raw_2021_2025/XLI.json": "a0c8e29a005be62a6eb32fc3152e87633181737f756a127392e0c00c28a9c2fb",
+    "data/raw_2021_2025/XLB.json": "e3f14b060f06164e2dbca5985bad91a1202c2fb796cb6ca4229ca64d80f860ba",
+    "data/raw_2021_2025/XLU.json": "02e7a0838e48d531d69aaea8bead12a26dc6d19606c1ff3d4fbee8b88bbf5279",
+    "data/raw_2021_2025/XLRE.json": "e58afbcd7558d65c888358b4c0fce53a7719f145b85f7332e8ea6a3ee96bb56d",
+    "data/raw_2021_2025/XLC.json": "9f8fffe3148101e59c81744f663ff5046c182f52960ac29975509460a48ef5e8",
+    "data/raw_2021_2025/SPY.json": "f38a6a18bd6e78476a4e4ddc1fae316d78505bff35aa0df7dd5327d73bca494f",
+    "data/basis_overlap_raw/XLK.json": "4f86e6ce0d54a86c692d9d573e53b39b51832b365cd8d10efaeff76e91bb46ee",
+    "data/basis_overlap_raw/XLF.json": "885d2a3d6cba49c39e3de1cac029839e84753ab792221ff230b7c10a21fb615d",
+    "data/basis_overlap_raw/XLV.json": "fe41ba375149a63a5b56d13bf7bdc9495438f8b225639595d9a326eef21380e7",
+    "data/basis_overlap_raw/XLY.json": "7150207296df36fab9a7a2b06e93c27f439fb06052ea987605b49f0007e4c7e0",
+    "data/basis_overlap_raw/XLP.json": "c85e1db88f55c28123ca302dcdcf1d3dfcfb4cc1b95d933d3d46f9c8a7c6e63a",
+    "data/basis_overlap_raw/XLE.json": "045b7ed02cdcf0fc27ea73cedb8a0593e18c193b628e1ddaef1ec720d466769b",
+    "data/basis_overlap_raw/XLI.json": "b87282745737ccc1a0d8a4d3812222c341d36586e575e38d49b0110314259287",
+    "data/basis_overlap_raw/XLB.json": "e9a2b56de342034f4ca4b39fecd30c955bb7bdeabd9eb5dd0f8864c7acd0137e",
+    "data/basis_overlap_raw/XLU.json": "ad3d15bfcd7c7302f7404ed5154ec65b5dbbfd8fd72bc60b9b94f33869e6c69d",
+    "data/basis_overlap_raw/XLRE.json": "be9996b7ade1768c5e7e6264fd868ebf93f03fc1a5bfca7d6afeff7b8d14208a",
+    "data/basis_overlap_raw/XLC.json": "5b35962d2fd2d0636d35139fed3ea2cb41521fac09533c522ab188dbf9338e03",
+    "data/basis_overlap_raw/SPY.json": "87fe191c4f78f6a1121a55d456df82c5ed4a0401975a356f9ed4ab04c0fac14f",
+    "data/price_basis_sources.json": "12db7416f89c9667d0836565f46c79999682b02e8288e97a61cfcc66cca3dd52"
+  },
+  "input_files_sha256": {
+    "prepared_data/weekly_candidates.csv": "8502819b5985e352890697cd07f06520f25e52d6529406c23c7c2c9fef204677",
+    "results/ridge/model_parameters.json": "e8d5bd519d1936b3a53c9391af646bc7acf9d88980d144717083b6c9dcef7132",
+    "results/ridge/predictions.csv": "9fab55ed79aff3709e532a4cdbf94a7bd3d294ec65cee0384a7c7c5991da8785",
+    "results/random_forest/random_forest_parameters.json": "a6c3772d429bb6029f510ffcae2deeccbe39577e46148e8f5e427ed1c15e1ab0",
+    "results/random_forest/predictions.csv": "6e275a18efc3e93920e9dfa4da2f27d6a05a04cad4322128322199ac40bf4b4d",
+    "results/xgboost/xgboost_parameters.json": "a8480cc321b37e933f9bb76b075f9b5f955c07f992cc274ff409cddc8ed129de",
+    "results/xgboost/predictions.csv": "610ea4dd4a5cff9169eeb40ac9d97e5a45b8889fe5686bc88ccfb1ad223f6998"
+  },
+  "script_sha256": "2dcfe9378f3b0917e597d58624250c562b452ffc1af6af1c77aea467bbb1c743",
+  "verification": [
+    {
+      "model": "ridge",
+      "full_max_prediction_difference": 0.0,
+      "original_float32_predictions_match_exactly": false
+    },
+    {
+      "model": "random_forest",
+      "full_max_prediction_difference": 0.0,
+      "original_float32_predictions_match_exactly": false
+    },
+    {
+      "model": "xgboost",
+      "full_max_prediction_difference": 4.233589173674446e-10,
+      "original_float32_predictions_match_exactly": true
+    }
+  ],
+  "paired_rows": 2805,
+  "existing_inputs_unchanged": true,
+  "saved_prediction_metrics_recomputed": true
+}

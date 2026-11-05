@@ -1,0 +1,139 @@
+{
+  "generated_at_utc": "2026-11-05T08:00:31.453837+00:00",
+  "status": "2024_development_selected_and_evaluated_on_same_window",
+  "xgboost_version": "3.4.1",
+  "features": [
+    "return_5",
+    "volatility_5",
+    "price_ma_5",
+    "activity_5"
+  ],
+  "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+  "ticker_universe": [
+    "XLK",
+    "XLF",
+    "XLV",
+    "XLY",
+    "XLP",
+    "XLE",
+    "XLI",
+    "XLB",
+    "XLU",
+    "XLRE",
+    "XLC"
+  ],
+  "source_snapshot_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790",
+  "input_sha256": {
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+    "data/corporate_actions.csv": "638f132390b733c45c3950b0a86d59bb18e6d0935cb356d3905a0fe89af0a27a",
+    "data/dataset_manifest.json": "492355504976626fb143b5366f42026ad9a462df3b6a46398621481f5d0a5036",
+    "data/raw_2021_2025/XLK.json": "ed314bd2e76f100d8e39c0968f75b5e6cab08b8b09e656667159b48dd03500e2",
+    "data/raw_2021_2025/XLF.json": "ca7b1fb72ff90360625d12cc60f0c1370b2295d7d3e970ae0d6bab63021ad1dc",
+    "data/raw_2021_2025/XLV.json": "0e8ca8be1a36faf3f0f28ec9ea050cbcd18a2d17d426b5c5112adaaea340f099",
+    "data/raw_2021_2025/XLY.json": "5ed853bddf2df98c59f40cd0b781b55b97a9bd71e88b4ed7e49c96f33064e0e8",
+    "data/raw_2021_2025/XLP.json": "63e7bb09f2f8f78765de16d10120c4d1f638e6b85895aa15dcb9d2d34568cbf9",
+    "data/raw_2021_2025/XLE.json": "e0c8efad8e334cf677f6e51f7813ee933b191110211366cd44b200ed57a5cf66",
+    "data/raw_2021_2025/XLI.json": "a0c8e29a005be62a6eb32fc3152e87633181737f756a127392e0c00c28a9c2fb",
+    "data/raw_2021_2025/XLB.json": "e3f14b060f06164e2dbca5985bad91a1202c2fb796cb6ca4229ca64d80f860ba",
+    "data/raw_2021_2025/XLU.json": "02e7a0838e48d531d69aaea8bead12a26dc6d19606c1ff3d4fbee8b88bbf5279",
+    "data/raw_2021_2025/XLRE.json": "e58afbcd7558d65c888358b4c0fce53a7719f145b85f7332e8ea6a3ee96bb56d",
+    "data/raw_2021_2025/XLC.json": "9f8fffe3148101e59c81744f663ff5046c182f52960ac29975509460a48ef5e8",
+    "data/raw_2021_2025/SPY.json": "f38a6a18bd6e78476a4e4ddc1fae316d78505bff35aa0df7dd5327d73bca494f",
+    "data/basis_overlap_raw/XLK.json": "4f86e6ce0d54a86c692d9d573e53b39b51832b365cd8d10efaeff76e91bb46ee",
+    "data/basis_overlap_raw/XLF.json": "885d2a3d6cba49c39e3de1cac029839e84753ab792221ff230b7c10a21fb615d",
+    "data/basis_overlap_raw/XLV.json": "fe41ba375149a63a5b56d13bf7bdc9495438f8b225639595d9a326eef21380e7",
+    "data/basis_overlap_raw/XLY.json": "7150207296df36fab9a7a2b06e93c27f439fb06052ea987605b49f0007e4c7e0",
+    "data/basis_overlap_raw/XLP.json": "c85e1db88f55c28123ca302dcdcf1d3dfcfb4cc1b95d933d3d46f9c8a7c6e63a",
+    "data/basis_overlap_raw/XLE.json": "045b7ed02cdcf0fc27ea73cedb8a0593e18c193b628e1ddaef1ec720d466769b",
+    "data/basis_overlap_raw/XLI.json": "b87282745737ccc1a0d8a4d3812222c341d36586e575e38d49b0110314259287",
+    "data/basis_overlap_raw/XLB.json": "e9a2b56de342034f4ca4b39fecd30c955bb7bdeabd9eb5dd0f8864c7acd0137e",
+    "data/basis_overlap_raw/XLU.json": "ad3d15bfcd7c7302f7404ed5154ec65b5dbbfd8fd72bc60b9b94f33869e6c69d",
+    "data/basis_overlap_raw/XLRE.json": "be9996b7ade1768c5e7e6264fd868ebf93f03fc1a5bfca7d6afeff7b8d14208a",
+    "data/basis_overlap_raw/XLC.json": "5b35962d2fd2d0636d35139fed3ea2cb41521fac09533c522ab188dbf9338e03",
+    "data/basis_overlap_raw/SPY.json": "87fe191c4f78f6a1121a55d456df82c5ed4a0401975a356f9ed4ab04c0fac14f",
+    "data/price_basis_sources.json": "12db7416f89c9667d0836565f46c79999682b02e8288e97a61cfcc66cca3dd52",
+    "prepared_data/weekly_candidates.csv": "8502819b5985e352890697cd07f06520f25e52d6529406c23c7c2c9fef204677",
+    "prepared_data/preparation.json": "8cb649e36749c34f47f4f1e2f29a83861d83f464a4152ff2aa90ee5328b322fb",
+    "results/xgboost/predictions.csv": "610ea4dd4a5cff9169eeb40ac9d97e5a45b8889fe5686bc88ccfb1ad223f6998",
+    "results/xgboost/debug_run.json": "39971bdaff227e40daa1fc38f3a93bbb1147c5238fb66cb76bee70f82f5c5099",
+    "results/xgboost/xgboost_parameters.json": "a8480cc321b37e933f9bb76b075f9b5f955c07f992cc274ff409cddc8ed129de",
+    "experiments/sector_ranking/01_objective_comparison/DESIGN.md": "40f873ca43e3eb5511bc7406c406b2fa1ca776f6716c35d33affc633e7f7af3a",
+    "experiments/sector_ranking/01_objective_comparison/run.py": "989952bad80c676912f81ee7fe0dca2a70cbbf476bf8ce36d2283f5847b8458e",
+    "models/xgboost.py": "8b81cf49c5958764f4c15553c34ac06f23403a200449cfabca3d63ae1c21cb93",
+    "compare_predictions.py": "129063f9cb915bb45c230719bc6176249046f65a17dc2bd1bb2083a467785b6d",
+    "run_feature_ablation.py": "2dcfe9378f3b0917e597d58624250c562b452ffc1af6af1c77aea467bbb1c743"
+  },
+  "windows": {
+    "fit_2021_2023": {
+      "rows": 1683,
+      "weeks": 153,
+      "first_signal": "2021-01-15T21:00:00+00:00",
+      "last_signal": "2023-12-15T21:00:00+00:00",
+      "last_exit": "2023-12-26T14:30:00+00:00"
+    },
+    "development_2024": {
+      "rows": 561,
+      "weeks": 51,
+      "first_signal": "2024-01-05T21:00:00+00:00",
+      "last_signal": "2024-12-20T21:00:00+00:00",
+      "last_exit": "2024-12-30T14:30:00+00:00"
+    }
+  },
+  "ranking_group": "SignalDate",
+  "ranking_fit_argument": "group",
+  "group_size": 11,
+  "fit_groups": 153,
+  "label": "zero-based dense rank within week, ascending actual price return",
+  "top_k": 3,
+  "top_k_tiebreak": "Ticker ascending",
+  "ic_ties": "average ranks",
+  "selection": "maximum mean valid weekly Rank IC; then lower depth, then fewer trees",
+  "grid": {
+    "max_depth": [
+      2,
+      3
+    ],
+    "n_estimators": [
+      50,
+      100
+    ]
+  },
+  "seed": 42,
+  "selected": {
+    "xgb_regression": {
+      "learning_rate": 0.03,
+      "min_child_weight": 10,
+      "reg_lambda": 10,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "tree_method": "hist",
+      "random_state": 42,
+      "n_jobs": 1,
+      "objective": "reg:squarederror",
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "xgb_ranker": {
+      "learning_rate": 0.03,
+      "min_child_weight": 10,
+      "reg_lambda": 10,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "tree_method": "hist",
+      "random_state": 42,
+      "n_jobs": 1,
+      "objective": "rank:pairwise",
+      "lambdarank_pair_method": "topk",
+      "lambdarank_num_pair_per_sample": 11,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  "historical_rmse_reference": {
+    "max_depth": 2,
+    "n_estimators": 50,
+    "validation_mse": 0.0005254812800076595
+  },
+  "scored_2025": false
+}

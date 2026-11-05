@@ -1,0 +1,70 @@
+{
+  "model": "RandomForestRegressor",
+  "selected": {
+    "max_depth": 3,
+    "min_samples_leaf": 20
+  },
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 3,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "features": [
+    "return_5",
+    "volatility_5",
+    "price_ma_5"
+  ],
+  "price_basis": {
+    "version": "price_only_v3",
+    "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+    "feature_prices": "source Close; Volume used only as a within-window ratio",
+    "label_prices": "source Open",
+    "risk_prices": "same open-to-open price returns",
+    "account_prices": "source Open",
+    "benchmark_prices": "source Open",
+    "adjusted_close_usage": "audit only; never a model or account price",
+    "cash_dividends_included": false,
+    "share_unit": "source_split_adjusted_share_units_not_historical_actual_shares",
+    "payment_dates_verified": false,
+    "historical_point_in_time_quotes": false,
+    "split_handling": "source OHLC/Volume coordinate; audited known splits; never adjust twice"
+  },
+  "fit_partition": "train_only_no_refit",
+  "experiment_status": "exploratory_2021_2025",
+  "FitAsOfMeaning": "last training label realization; selection availability recorded separately; not wall-clock fit time",
+  "split_design": {
+    "method": "signal_calendar_year_and_labels_realized_within_partition_years",
+    "train": [
+      2021,
+      2022,
+      2023
+    ],
+    "validation": [
+      2024
+    ],
+    "test": [
+      2025
+    ],
+    "status": "retrospective_exploratory; dates fixed before expanded model evaluation"
+  },
+  "feature_importances": {
+    "return_5": 0.3467495549228532,
+    "volatility_5": 0.2343466883064301,
+    "price_ma_5": 0.41890375677071673
+  }
+}

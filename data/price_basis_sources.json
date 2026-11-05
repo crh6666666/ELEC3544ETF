@@ -1,0 +1,20 @@
+{
+  "checked_date": "2026-11-04",
+  "yahoo_adjustment_method": {
+    "url": "https://in.help.yahoo.com/kb/adjusted-close-sln28256.html",
+    "interpretation": "Yahoo describes split and distribution adjustments and the prior-close dividend multiplier. Used to reconcile relative Adj Close / Close changes; not to construct cash payments."
+  },
+  "issuer_documented_split": {
+    "url": "https://investors.statestreet.com/investor-news-events/press-releases/news-details/2025/State-Street-Investment-Management-Announces-Share-Splits-for-Five-Select-Sector-SPDR-ETFs/default.aspx",
+    "effective_date": "2025-12-05",
+    "tickers": [
+      "XLK",
+      "XLY",
+      "XLE",
+      "XLU",
+      "XLB"
+    ],
+    "new_shares_per_old_share": 2,
+    "interpretation": "Issuer-documented split within the expanded 2021-2025 study. Source historical OHLC already use consistent split-adjusted units. Check split-date continuity; never apply a second adjustment."
+  }
+}

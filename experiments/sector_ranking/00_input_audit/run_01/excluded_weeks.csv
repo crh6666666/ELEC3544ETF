@@ -1,0 +1,6 @@
+SignalDate,EntryDate,ExitDate,Split,etfs,features_complete,holding_complete
+2021-01-08,2021-01-11,2021-01-19,excluded,11,False,True
+2023-12-22,2023-12-26,2024-01-02,purged_unrealized_label,11,True,True
+2023-12-29,2024-01-02,2024-01-08,purged_unrealized_label,11,True,True
+2024-12-27,2024-12-30,2025-01-06,purged_unrealized_label,11,True,True
+2025-12-26,2025-12-29,2026-01-05,excluded,11,True,False

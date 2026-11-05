@@ -1,0 +1,41 @@
+{
+  "features": [
+    "return_5",
+    "volatility_5",
+    "price_ma_5"
+  ],
+  "alpha": 100.0,
+  "scaler_mean": [
+    0.0021227519904294732,
+    0.011676130448340991,
+    1.0008432031030687
+  ],
+  "scaler_scale": [
+    0.030070796537281227,
+    0.006367841114959605,
+    0.015205695423320358
+  ],
+  "coef": [
+    -0.0034110692821010375,
+    0.0006625609553497181,
+    0.0023393310436739968
+  ],
+  "intercept": 0.0016620930875463557,
+  "fit_partition": "train_only_no_refit",
+  "price_basis": {
+    "version": "price_only_v3",
+    "target_basis": "source_split_adjusted_open_price_return_excludes_cash_dividends",
+    "feature_prices": "source Close; Volume used only as a within-window ratio",
+    "label_prices": "source Open",
+    "risk_prices": "same open-to-open price returns",
+    "account_prices": "source Open",
+    "benchmark_prices": "source Open",
+    "adjusted_close_usage": "audit only; never a model or account price",
+    "cash_dividends_included": false,
+    "share_unit": "source_split_adjusted_share_units_not_historical_actual_shares",
+    "payment_dates_verified": false,
+    "historical_point_in_time_quotes": false,
+    "split_handling": "source OHLC/Volume coordinate; audited known splits; never adjust twice"
+  },
+  "price_basis_audit_id": "909af841e1cd219deb232ce4888f03059dfd4e920eb4592d638befa175d15790"
+}
