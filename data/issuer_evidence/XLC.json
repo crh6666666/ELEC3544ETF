@@ -1,0 +1,271 @@
+{
+  "ticker": "XLC",
+  "url": "https://www.ssga.com/bin/v1/ssmp/fund/dividend-distribution?country=us&language=en&role=intermediary&product=etfs&ticker=XLC",
+  "fetched_utc": "2026-11-06T15:42:19.988406+00:00",
+  "records": [
+    {
+      "exDate": "09/21/2026",
+      "recordDate": "09/21/2026",
+      "dividend": "0.364093",
+      "payableDate": "09/23/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/22/2026",
+      "recordDate": "06/22/2026",
+      "dividend": "0.283746",
+      "payableDate": "06/24/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/23/2026",
+      "recordDate": "03/23/2026",
+      "dividend": "0.357046",
+      "payableDate": "03/25/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/22/2025",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/22/2025",
+      "dividend": "0.375791",
+      "payableDate": "12/24/2025",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/22/2025",
+      "recordDate": "09/22/2025",
+      "dividend": "0.414664",
+      "payableDate": "09/24/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/23/2025",
+      "recordDate": "06/23/2025",
+      "dividend": "0.248823",
+      "payableDate": "06/25/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/24/2025",
+      "recordDate": "03/24/2025",
+      "dividend": "0.287915",
+      "payableDate": "03/26/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/23/2024",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/23/2024",
+      "dividend": "0.254403",
+      "payableDate": "12/26/2024",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/23/2024",
+      "recordDate": "09/23/2024",
+      "dividend": "0.269182",
+      "payableDate": "09/25/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/24/2024",
+      "recordDate": "06/24/2024",
+      "dividend": "0.224350",
+      "payableDate": "06/26/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/18/2024",
+      "recordDate": "03/19/2024",
+      "dividend": "0.213998",
+      "payableDate": "03/21/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/18/2023",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/19/2023",
+      "dividend": "0.173703",
+      "payableDate": "12/21/2023",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/18/2023",
+      "recordDate": "09/19/2023",
+      "dividend": "0.167754",
+      "payableDate": "09/21/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/20/2023",
+      "recordDate": "06/21/2023",
+      "dividend": "0.104873",
+      "payableDate": "06/23/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/20/2023",
+      "recordDate": "03/21/2023",
+      "dividend": "0.150008",
+      "payableDate": "03/23/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/19/2022",
+      "recordDate": "12/20/2022",
+      "dividend": "0.117673",
+      "payableDate": "12/22/2022",
+      "shortTeamCapital": "0.000000",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/19/2022",
+      "recordDate": "09/20/2022",
+      "dividend": "0.109510",
+      "payableDate": "09/22/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2022",
+      "recordDate": "06/22/2022",
+      "dividend": "0.129872",
+      "payableDate": "06/24/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/21/2022",
+      "recordDate": "03/22/2022",
+      "dividend": "0.172719",
+      "payableDate": "03/24/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2021",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/21/2021",
+      "dividend": "0.156681",
+      "payableDate": "12/23/2021",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/20/2021",
+      "recordDate": "09/21/2021",
+      "dividend": "0.141702",
+      "payableDate": "09/23/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2021",
+      "recordDate": "06/22/2021",
+      "dividend": "0.140498",
+      "payableDate": "06/24/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/22/2021",
+      "recordDate": "03/23/2021",
+      "dividend": "0.132892",
+      "payableDate": "03/25/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2020",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/22/2020",
+      "dividend": "0.106957",
+      "payableDate": "12/24/2020",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/21/2020",
+      "recordDate": "09/22/2020",
+      "dividend": "0.123931",
+      "payableDate": "09/24/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/22/2020",
+      "recordDate": "06/23/2020",
+      "dividend": "0.111610",
+      "payableDate": "06/25/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/23/2020",
+      "recordDate": "03/24/2020",
+      "dividend": "0.113003",
+      "payableDate": "03/26/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2019",
+      "recordDate": "12/23/2019",
+      "dividend": "0.117050",
+      "payableDate": "12/26/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/20/2019",
+      "recordDate": "09/23/2019",
+      "dividend": "0.119326",
+      "payableDate": "09/25/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2019",
+      "recordDate": "06/24/2019",
+      "dividend": "0.117500",
+      "payableDate": "06/26/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/15/2019",
+      "recordDate": "03/18/2019",
+      "dividend": "0.083395",
+      "payableDate": "03/20/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2018",
+      "recordDate": "12/24/2018",
+      "dividend": "0.134249",
+      "payableDate": "12/27/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/21/2018",
+      "recordDate": "09/24/2018",
+      "dividend": "0.131683",
+      "payableDate": "09/26/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    }
+  ]
+}

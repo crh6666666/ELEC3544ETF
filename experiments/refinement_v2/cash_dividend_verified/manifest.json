@@ -1,0 +1,9 @@
+{
+  "data/issuer_evidence/reconciled_distributions.csv": "b2ca9d802d5cd887cb97303ab2c69f57dba0eae17924e28e9ad23125cccdf1ee",
+  "data/issuer_evidence/audit.json": "fc93e965713e07bc9213d95752ca8eecc5f854c29857ad012c910b62330e0a88",
+  "experiments/refinement_v2/scores.csv": "9413a4fa4d28f386e9c571bf80fef71a39d1169f73283aeb4c105b462110c181",
+  "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+  "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+  "dividend_account.py": "aa698947508b57963dafe91fc1da21d4a82759a44196aecae645b6edb59f657b",
+  "plot_portfolio.py": "40c577ff7585ed783b1e93aa1f6454e3202093ac09fa0175a358774260a59de5"
+}

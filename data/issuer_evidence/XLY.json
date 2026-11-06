@@ -1,0 +1,895 @@
+{
+  "ticker": "XLY",
+  "url": "https://www.ssga.com/bin/v1/ssmp/fund/dividend-distribution?country=us&language=en&role=intermediary&product=etfs&ticker=XLY",
+  "fetched_utc": "2026-11-06T15:42:17.900963+00:00",
+  "records": [
+    {
+      "exDate": "09/21/2026",
+      "recordDate": "09/21/2026",
+      "dividend": "0.244085",
+      "payableDate": "09/23/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/22/2026",
+      "recordDate": "06/22/2026",
+      "dividend": "0.233220",
+      "payableDate": "06/24/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/23/2026",
+      "recordDate": "03/23/2026",
+      "dividend": "0.215623",
+      "payableDate": "03/25/2026",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/22/2025",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/22/2025",
+      "dividend": "0.240848",
+      "payableDate": "12/24/2025",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/22/2025",
+      "recordDate": "09/22/2025",
+      "dividend": "0.425455",
+      "payableDate": "09/24/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/23/2025",
+      "recordDate": "06/23/2025",
+      "dividend": "0.447042",
+      "payableDate": "06/25/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/24/2025",
+      "recordDate": "03/24/2025",
+      "dividend": "0.541956",
+      "payableDate": "03/26/2025",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/23/2024",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/23/2024",
+      "dividend": "0.433128",
+      "payableDate": "12/26/2024",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/23/2024",
+      "recordDate": "09/23/2024",
+      "dividend": "0.404668",
+      "payableDate": "09/25/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/24/2024",
+      "recordDate": "06/24/2024",
+      "dividend": "0.391817",
+      "payableDate": "06/26/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/18/2024",
+      "recordDate": "03/19/2024",
+      "dividend": "0.387249",
+      "payableDate": "03/21/2024",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/18/2023",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/19/2023",
+      "dividend": "0.320447",
+      "payableDate": "12/21/2023",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/18/2023",
+      "recordDate": "09/19/2023",
+      "dividend": "0.305273",
+      "payableDate": "09/21/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/20/2023",
+      "recordDate": "06/21/2023",
+      "dividend": "0.334377",
+      "payableDate": "06/23/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/20/2023",
+      "recordDate": "03/21/2023",
+      "dividend": "0.430167",
+      "payableDate": "03/23/2023",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/19/2022",
+      "recordDate": "12/20/2022",
+      "dividend": "0.365812",
+      "payableDate": "12/22/2022",
+      "shortTeamCapital": "0.000000",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/19/2022",
+      "recordDate": "09/20/2022",
+      "dividend": "0.330045",
+      "payableDate": "09/22/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2022",
+      "recordDate": "06/22/2022",
+      "dividend": "0.314244",
+      "payableDate": "06/24/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/21/2022",
+      "recordDate": "03/22/2022",
+      "dividend": "0.278761",
+      "payableDate": "03/24/2022",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2021",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/21/2021",
+      "dividend": "0.292225",
+      "payableDate": "12/23/2021",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/20/2021",
+      "recordDate": "09/21/2021",
+      "dividend": "0.274892",
+      "payableDate": "09/23/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2021",
+      "recordDate": "06/22/2021",
+      "dividend": "0.255350",
+      "payableDate": "06/24/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/22/2021",
+      "recordDate": "03/23/2021",
+      "dividend": "0.264059",
+      "payableDate": "03/25/2021",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2020",
+      "longTeamCapital": "0.000000",
+      "recordDate": "12/22/2020",
+      "dividend": "0.296123",
+      "payableDate": "12/24/2020",
+      "shortTeamCapital": "0.000000"
+    },
+    {
+      "exDate": "09/21/2020",
+      "recordDate": "09/22/2020",
+      "dividend": "0.305594",
+      "payableDate": "09/24/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/22/2020",
+      "recordDate": "06/23/2020",
+      "dividend": "0.296038",
+      "payableDate": "06/25/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/23/2020",
+      "recordDate": "03/24/2020",
+      "dividend": "0.423660",
+      "payableDate": "03/26/2020",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2019",
+      "recordDate": "12/23/2019",
+      "dividend": "0.409823",
+      "payableDate": "12/26/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/20/2019",
+      "recordDate": "09/23/2019",
+      "dividend": "0.404371",
+      "payableDate": "09/25/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2019",
+      "recordDate": "06/24/2019",
+      "dividend": "0.413870",
+      "payableDate": "06/26/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/15/2019",
+      "recordDate": "03/18/2019",
+      "dividend": "0.375369",
+      "payableDate": "03/20/2019",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2018",
+      "recordDate": "12/24/2018",
+      "dividend": "0.375801",
+      "payableDate": "12/27/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/21/2018",
+      "recordDate": "09/24/2018",
+      "dividend": "0.351217",
+      "payableDate": "09/26/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/15/2018",
+      "recordDate": "06/18/2018",
+      "dividend": "0.293628",
+      "payableDate": "06/20/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/16/2018",
+      "recordDate": "03/19/2018",
+      "dividend": "0.309811",
+      "payableDate": "03/21/2018",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/15/2017",
+      "recordDate": "12/18/2017",
+      "dividend": "0.331865",
+      "payableDate": "12/26/2017",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/15/2017",
+      "recordDate": "09/18/2017",
+      "dividend": "0.317946",
+      "payableDate": "09/25/2017",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/16/2017",
+      "recordDate": "06/20/2017",
+      "dividend": "0.274625",
+      "payableDate": "06/26/2017",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/17/2017",
+      "recordDate": "03/21/2017",
+      "dividend": "0.260537",
+      "payableDate": "03/27/2017",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/16/2016",
+      "recordDate": "12/20/2016",
+      "dividend": "0.492060",
+      "payableDate": "12/27/2016",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/16/2016",
+      "recordDate": "09/20/2016",
+      "dividend": "0.299949",
+      "payableDate": "09/26/2016",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/17/2016",
+      "recordDate": "06/21/2016",
+      "dividend": "0.276700",
+      "payableDate": "06/27/2016",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/18/2016",
+      "recordDate": "03/22/2016",
+      "dividend": "0.321047",
+      "payableDate": "03/29/2016",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/18/2015",
+      "recordDate": "12/22/2015",
+      "dividend": "0.325179",
+      "payableDate": "12/29/2015",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/18/2015",
+      "recordDate": "09/22/2015",
+      "dividend": "0.288973",
+      "payableDate": "09/28/2015",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/19/2015",
+      "recordDate": "06/23/2015",
+      "dividend": "0.246990",
+      "payableDate": "06/29/2015",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/20/2015",
+      "recordDate": "03/24/2015",
+      "dividend": "0.255270",
+      "payableDate": "03/30/2015",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/19/2014",
+      "recordDate": "12/23/2014",
+      "dividend": "0.293140",
+      "payableDate": "12/30/2014",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/19/2014",
+      "recordDate": "09/23/2014",
+      "dividend": "0.228610",
+      "payableDate": "09/29/2014",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/20/2014",
+      "recordDate": "06/24/2014",
+      "dividend": "0.212410",
+      "payableDate": "06/30/2014",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/21/2014",
+      "recordDate": "03/25/2014",
+      "dividend": "0.207520",
+      "payableDate": "03/31/2014",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2013",
+      "recordDate": "12/24/2013",
+      "dividend": "0.261530",
+      "payableDate": "12/31/2013",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/20/2013",
+      "recordDate": "09/24/2013",
+      "dividend": "0.180370",
+      "payableDate": "09/30/2013",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2013",
+      "recordDate": "06/25/2013",
+      "dividend": "0.176290",
+      "payableDate": "07/01/2013",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/15/2013",
+      "recordDate": "03/19/2013",
+      "dividend": "0.157860",
+      "payableDate": "03/25/2013",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2012",
+      "recordDate": "12/26/2012",
+      "dividend": "0.305510",
+      "payableDate": "01/03/2013",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/21/2012",
+      "recordDate": "09/25/2012",
+      "dividend": "0.165780",
+      "payableDate": "10/03/2012",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/15/2012",
+      "recordDate": "06/19/2012",
+      "dividend": "0.151770",
+      "payableDate": "06/27/2012",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/16/2012",
+      "recordDate": "03/20/2012",
+      "dividend": "0.136980",
+      "payableDate": "03/28/2012",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/16/2011",
+      "recordDate": "12/20/2011",
+      "dividend": "0.219590",
+      "payableDate": "12/28/2011",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/16/2011",
+      "recordDate": "09/20/2011",
+      "dividend": "0.127710",
+      "payableDate": "09/28/2011",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/17/2011",
+      "recordDate": "06/21/2011",
+      "dividend": "0.133350",
+      "payableDate": "06/29/2011",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/18/2011",
+      "recordDate": "03/22/2011",
+      "dividend": "0.125920",
+      "payableDate": "03/30/2011",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/17/2010",
+      "recordDate": "12/21/2010",
+      "dividend": "0.219640",
+      "payableDate": "12/29/2010",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/17/2010",
+      "recordDate": "09/21/2010",
+      "dividend": "0.104870",
+      "payableDate": "09/29/2010",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/18/2010",
+      "recordDate": "06/22/2010",
+      "dividend": "0.105330",
+      "payableDate": "06/30/2010",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/19/2010",
+      "recordDate": "03/23/2010",
+      "dividend": "0.062240",
+      "payableDate": "03/31/2010",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/18/2009",
+      "recordDate": "12/22/2009",
+      "dividend": "0.160740",
+      "payableDate": "12/30/2009",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/18/2009",
+      "recordDate": "09/22/2009",
+      "dividend": "0.090260",
+      "payableDate": "09/30/2009",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/19/2009",
+      "recordDate": "06/23/2009",
+      "dividend": "0.097550",
+      "payableDate": "07/01/2009",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/20/2009",
+      "recordDate": "03/24/2009",
+      "dividend": "0.102458",
+      "payableDate": "04/01/2009",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/19/2008",
+      "recordDate": "12/23/2008",
+      "dividend": "0.162300",
+      "payableDate": "12/31/2008",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/19/2008",
+      "recordDate": "09/23/2008",
+      "dividend": "0.104560",
+      "payableDate": "10/01/2008",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/20/2008",
+      "recordDate": "06/24/2008",
+      "dividend": "0.111820",
+      "payableDate": "07/02/2008",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/20/2008",
+      "recordDate": "03/25/2008",
+      "dividend": "0.039620",
+      "payableDate": "04/02/2008",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2007",
+      "recordDate": "12/26/2007",
+      "dividend": "0.234820",
+      "payableDate": "01/04/2008",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/21/2007",
+      "recordDate": "09/25/2007",
+      "dividend": "0.073350",
+      "payableDate": "10/03/2007",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/15/2007",
+      "recordDate": "06/19/2007",
+      "dividend": "0.070200",
+      "payableDate": "06/27/2007",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/16/2007",
+      "recordDate": "03/20/2007",
+      "dividend": "0.068340",
+      "payableDate": "03/28/2007",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/15/2006",
+      "recordDate": "12/19/2006",
+      "dividend": "0.137830",
+      "payableDate": "12/27/2006",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/15/2006",
+      "recordDate": "09/19/2006",
+      "dividend": "0.137830",
+      "payableDate": "09/27/2006",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/16/2006",
+      "recordDate": "06/20/2006",
+      "dividend": "0.070740",
+      "payableDate": "06/28/2006",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/17/2006",
+      "recordDate": "03/21/2006",
+      "dividend": "0.006840",
+      "payableDate": "04/28/2006",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/16/2005",
+      "recordDate": "12/20/2005",
+      "dividend": "0.171180",
+      "payableDate": "01/31/2006",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/16/2005",
+      "recordDate": "09/20/2005",
+      "dividend": "0.059210",
+      "payableDate": "10/31/2005",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/17/2005",
+      "recordDate": "06/21/2005",
+      "dividend": "0.049040",
+      "payableDate": "07/29/2005",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/18/2005",
+      "recordDate": "03/22/2005",
+      "dividend": "0.048110",
+      "payableDate": "04/29/2005",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/17/2004",
+      "recordDate": "12/21/2004",
+      "dividend": "0.107940",
+      "payableDate": "01/31/2005",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/17/2004",
+      "recordDate": "09/21/2004",
+      "dividend": "0.045880",
+      "payableDate": "10/29/2004",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/18/2004",
+      "recordDate": "06/22/2004",
+      "dividend": "0.042120",
+      "payableDate": "07/30/2004",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/19/2004",
+      "recordDate": "03/23/2004",
+      "dividend": "0.041810",
+      "payableDate": "04/30/2004",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/19/2003",
+      "recordDate": "12/23/2003",
+      "dividend": "0.083960",
+      "payableDate": "01/30/2004",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/19/2003",
+      "recordDate": "09/23/2003",
+      "dividend": "0.038220",
+      "payableDate": "10/31/2003",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/20/2003",
+      "recordDate": "06/24/2003",
+      "dividend": "0.038190",
+      "payableDate": "07/31/2003",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/21/2003",
+      "recordDate": "03/25/2003",
+      "dividend": "0.034140",
+      "payableDate": "04/30/2003",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/20/2002",
+      "recordDate": "12/24/2002",
+      "dividend": "0.052540",
+      "payableDate": "01/31/2003",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/20/2002",
+      "recordDate": "09/24/2002",
+      "dividend": "0.030230",
+      "payableDate": "10/31/2002",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/21/2002",
+      "recordDate": "06/25/2002",
+      "dividend": "0.050580",
+      "payableDate": "07/31/2002",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/15/2002",
+      "recordDate": "03/19/2002",
+      "dividend": "0.037680",
+      "payableDate": "04/30/2002",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/21/2001",
+      "recordDate": "12/26/2001",
+      "dividend": "0.044260",
+      "payableDate": "01/31/2002",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/21/2001",
+      "recordDate": "09/25/2001",
+      "dividend": "0.063440",
+      "payableDate": "10/31/2001",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/15/2001",
+      "recordDate": "06/19/2001",
+      "dividend": "0.058740",
+      "payableDate": "07/31/2001",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/16/2001",
+      "recordDate": "03/20/2001",
+      "dividend": "0.053140",
+      "payableDate": "04/30/2001",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/15/2000",
+      "recordDate": "12/19/2000",
+      "dividend": "0.061350",
+      "payableDate": "01/31/2001",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/15/2000",
+      "recordDate": "09/19/2000",
+      "dividend": "0.066118",
+      "payableDate": "10/31/2000",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/16/2000",
+      "recordDate": "06/20/2000",
+      "dividend": "0.050398",
+      "payableDate": "07/31/2000",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/17/2000",
+      "recordDate": "03/21/2000",
+      "dividend": "0.054839",
+      "payableDate": "04/28/2000",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "12/17/1999",
+      "recordDate": "12/21/1999",
+      "dividend": "0.038058",
+      "payableDate": "01/31/2000",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "09/17/1999",
+      "recordDate": "09/21/1999",
+      "dividend": "0.037425",
+      "payableDate": "10/29/1999",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "06/18/1999",
+      "recordDate": "06/22/1999",
+      "dividend": "0.037877",
+      "payableDate": "07/30/1999",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    },
+    {
+      "exDate": "03/19/1999",
+      "recordDate": "03/23/1999",
+      "dividend": "0.031995",
+      "payableDate": "04/30/1999",
+      "shortTeamCapital": "-",
+      "longTeamCapital": "-"
+    }
+  ]
+}

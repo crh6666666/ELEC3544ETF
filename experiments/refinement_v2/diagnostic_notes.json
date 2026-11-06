@@ -1,0 +1,4 @@
+{
+  "fixed_targets": "Identical scores and target weights evaluated under both bases; holdings may drift differently. Not a fixed-share ledger.",
+  "bootstrap": "reg_extended9 top5 vs equal; 2000 draws each, 2/4/8 weeks, seed42; retrospective and unadjusted."
+}

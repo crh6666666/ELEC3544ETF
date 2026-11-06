@@ -1,0 +1,107 @@
+{
+  "status": "retrospective_exploratory_no_new_holdout",
+  "created": "2026-11-06T15:36:59.003879+00:00",
+  "windows": {
+    "W1": [
+      "2021-01-01",
+      "2023-01-01",
+      "2023-07-01",
+      "2024-01-01"
+    ],
+    "W2": [
+      "2021-01-01",
+      "2023-07-01",
+      "2024-01-01",
+      "2024-07-01"
+    ],
+    "W3": [
+      "2021-01-01",
+      "2024-01-01",
+      "2024-07-01",
+      "2025-01-01"
+    ],
+    "W4_2025": [
+      "2021-01-01",
+      "2024-01-01",
+      "2025-01-01",
+      "2026-01-01"
+    ]
+  },
+  "feature_sets": {
+    "original4": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5"
+    ],
+    "extended7": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "volatility_20",
+      "relative_volume_20"
+    ],
+    "extended9": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "volatility_20",
+      "relative_volume_20",
+      "momentum_20",
+      "momentum_60"
+    ],
+    "drop_relative_spy_return_20": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "volatility_20",
+      "relative_volume_20"
+    ],
+    "drop_volatility_20": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "relative_volume_20"
+    ],
+    "drop_relative_volume_20": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "relative_spy_return_20",
+      "volatility_20"
+    ],
+    "own_return20": [
+      "return_5",
+      "volatility_5",
+      "price_ma_5",
+      "activity_5",
+      "momentum_20",
+      "volatility_20",
+      "relative_volume_20"
+    ]
+  },
+  "baseline_selection": "highest selection mean Rank IC; no evaluation selection",
+  "price_basis": "price vs dividend-adjusted open proxy; no actual dividend payment ledger",
+  "bootstrap": "2000 circular moving-block draws, block=4 weeks; per window; unadjusted exploratory 95% intervals",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "xgboost": "3.4.1"
+  },
+  "input_hashes": {
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+    "data/corporate_actions.csv": "638f132390b733c45c3950b0a86d59bb18e6d0935cb356d3905a0fe89af0a27a",
+    "prepared_data/weekly_candidates.csv": "8502819b5985e352890697cd07f06520f25e52d6529406c23c7c2c9fef204677",
+    "run_research.py": "12f90840e13c32ab5db4385a5cdf912d47cc5a6a91fa869f7065837e6185c0c7",
+    "plot_portfolio.py": "40c577ff7585ed783b1e93aa1f6454e3202093ac09fa0175a358774260a59de5"
+  }
+}

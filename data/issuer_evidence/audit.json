@@ -1,0 +1,25 @@
+{
+  "status": "ISSUER_DISTRIBUTIONS_RECONCILED_NOT_DAILY_QUOTE_VERIFICATION",
+  "events": 240,
+  "tickers": 12,
+  "rounding_matches": 239,
+  "explicit_issuer_overrides": 1,
+  "max_absolute_unit_difference": 0.003430999999999962,
+  "rounding_tolerance": "0.0006 historical dollars divided by future split divisor + 0.000001; predeclared",
+  "source": "State Street issuer API, separate from Yahoo",
+  "limitation": "Validates distribution amounts/dates and known split-unit conversion, not independent daily OHLC.",
+  "hashes": {
+    "SPY.json": "96a4dd975cc196b985d6fdfbdeb1568e15757ecb6797fd7455ce22f93abc88ba",
+    "XLB.json": "24835af906865fb18a2306b0a565caf6d8e1af6dd7e7342d47a56e6ab829da1a",
+    "XLC.json": "9ca6821002a76e10ad3c66a1fd5a91d353fa612258d1ea0de7176163c75b9546",
+    "XLE.json": "9d0436cd53308a6d6b67b2ad490be8b3c0933879f84554f9b046f5d9ea877c5b",
+    "XLF.json": "60b4757695aec37789834ec0b5a7acd28ff8d75ccf12115f90305aac3b7ac0d8",
+    "XLI.json": "9386ecfc792b454657583cd8fa2048f0c51b1b15e5bf9d581058f457b1745518",
+    "XLK.json": "c9bba4d438945fce46e0892e00d53138f44cef80fef1e82baa827722493f9df1",
+    "XLP.json": "7f46cb32a8e4b1fbffaf27b20fca7c0aab989aa38cf546940d44721b6b327c05",
+    "XLRE.json": "95c6bc4c9d598609f05d28cba45811435c7e9f1265bc47cef5c55b99f373961c",
+    "XLU.json": "7418edc915c3a34b37b6656707f9187b398c449d2dc10eb07fbd97d32904cb49",
+    "XLV.json": "daeaa9f4df4f54daf7c5edcd5d1e9b37b06c421729e992271f16384c8d3a6aa8",
+    "XLY.json": "67c7c4875331fc266c463606fe9f39d315adee472e10e0581a8f75ffdaf2f05c"
+  }
+}
