@@ -1,5 +1,13 @@
 # From return prediction to sector ranking: do better forecasts produce better portfolios?
 
+Latest evidence: DATA_ACCESS_FIX.md and experiments/new_period_2026 document a
+42-week 2026 evaluation under the previously frozen model rules and a disclosed
+Nasdaq/issuer data substitution. Seven-feature Top5 returned 13.76%, nine-feature
+6.62%, equal-weight11 11.37%, SPY 11.62%. All tested paired return intervals
+include zero. This period is now viewed and must not be reused as an unseen
+holdout. Do not hide the weaker nine-feature outcome. SPY daily risk statistics
+have a flagged quote-quality caveat; full-period endpoint return is unaffected.
+
 ## Main question and three hypotheses
 
 Can weekly market features rank 11 US sector ETFs well enough to improve a

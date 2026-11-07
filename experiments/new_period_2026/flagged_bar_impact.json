@@ -1,0 +1,6 @@
+{
+  "flagged_spy_date": "2026-04-20",
+  "affected_model_feature_signal_dates": [],
+  "spy_volume_used": false,
+  "benchmark_note": "Full-period SPY endpoint return unaffected; intermediate open-marked drawdown/volatility subject to supplied flat OHLC warning."
+}

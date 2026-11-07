@@ -1,11 +1,19 @@
 # ELEC3544ETF：独立模型调试项目
 
+## 最新：2026数据已获取并按冻结方案评价
+
+见 [DATA_ACCESS_FIX.md](DATA_ACCESS_FIX.md)。数据源改为显式保存的Nasdaq快照，
+完成15,060条重叠记录核对。2026年42周结果在`experiments/new_period_2026/`：
+七特征回归Top5为13.76%，九特征6.62%，等权11.37%，SPY11.62%。
+收益差Bootstrap区间跨零；保留来源替代与SPY单日低质量记录限制。
+早期文档的“2026尚未评分/下载受阻”是历史状态，以本节和新报告为准。
+
 ## 小组快速开始
 
 最终研究主线和评分证据索引见 [PROJECT_STORY.md](PROJECT_STORY.md)。
 安装实测依赖：`python -m pip install -r requirements-research.txt`。
 
-- `python project.py check`：运行18个测试，并离线复核发行人分红。
+- `python project.py check`：运行21个测试，并离线复核发行人分红。
 - `python project.py report --output reports/my_evidence`：从已保存结果生成三张主图、
   两张主表及分红标签审计；输出目录必须是新目录。
 - `python project.py research --output experiments/my_run`：完整重跑回顾性实验。

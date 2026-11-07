@@ -1,0 +1,23 @@
+{
+  "status": "DOWNLOADED_PENDING_OVERLAP_REVIEW",
+  "start": "2021-01-04",
+  "end": "2026-10-30",
+  "rows": 17568,
+  "sessions": 1464,
+  "tickers": 12,
+  "source": "Nasdaq historical OHLCV API; no Adj Close supplied",
+  "hashes": {
+    "SPY.json": "792b75336fd624ea5bcf78e87afc2e8194295bb0020d8b061826cad03bf4b306",
+    "XLB.json": "1eb74fb17cf70eb7f29ccbdd5aef56a0b345c0eed032a64a4ef68b533cfc7121",
+    "XLC.json": "f33020b10b8276b411aece078edc3de53077e82a7ec522ad6d3b204baad839e1",
+    "XLE.json": "ddbe654cfbbd01400fae20e1d8479cba7e56529acdca63b314d8fddea383e043",
+    "XLF.json": "4caf94404d4feb7c9ab8b6016ffeed892558729f4e2208b62b5ee09770d60d74",
+    "XLI.json": "f2c75cdcbac625d34c75d1a26661e6cba05fe48dc189966de65847e59f975db3",
+    "XLK.json": "0043a1a564b19d47209fef100e1df54ea4ff94a8375487ac4c958786a571e652",
+    "XLP.json": "6d142a23c21034e50d4edc3a23c499a76ce07b6f4cd8d3535d261c76dc9e9972",
+    "XLRE.json": "cec146f40b48f99947af39b7e6bf1d882e36f265bcafa1b206fb1f25b25e6714",
+    "XLU.json": "0ffeb67a0b9a97c34f2580af39275a0ab736d5a3f441dcf526e08771667a9743",
+    "XLV.json": "eaf0bc75719ee73287903da5723f76302b1676609dca47ae97c3d5eb7d050f4a",
+    "XLY.json": "4d0f000fb97b7d295a86107c03d7a25f45978ccd6f743170c046093355c1f4ef"
+  }
+}

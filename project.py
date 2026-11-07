@@ -14,7 +14,7 @@ def main():
     args=p.parse_args()
     if args.action=='check':
         subprocess.run([sys.executable,'-m','unittest','test_portfolio','test_prediction_comparison',
-                        'test_research','test_dividend_account'],cwd=ROOT,check=True)
+                        'test_research','test_dividend_account','test_new_period'],cwd=ROOT,check=True)
         subprocess.run([sys.executable,'issuer_dividends.py','--offline'],cwd=ROOT,check=True)
     elif args.action=='report':
         cmd=[sys.executable,'build_research_evidence.py']
