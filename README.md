@@ -1,5 +1,19 @@
 # ELEC3544ETF：独立模型调试项目
 
+## 小组快速开始
+
+最终研究主线和评分证据索引见 [PROJECT_STORY.md](PROJECT_STORY.md)。
+安装实测依赖：`python -m pip install -r requirements-research.txt`。
+
+- `python project.py check`：运行18个测试，并离线复核发行人分红。
+- `python project.py report --output reports/my_evidence`：从已保存结果生成三张主图、
+  两张主表及分红标签审计；输出目录必须是新目录。
+- `python project.py research --output experiments/my_run`：完整重跑回顾性实验。
+
+已生成的精简证据在 [reports/focused_evidence](reports/focused_evidence)。
+主账户图采用现金分红账本，成本图采用明确标注的调整开盘近似；两者不混为同一口径。
+2026未评分，现有结果不称为新的独立测试。下文`run.py`保留为原三模型实验入口。
+
 ## 2026-11-06 研究改进入口
 
 最新数据修正见`DATA_REPAIR_RESULTS.md`。已独立核对发行人240次分红，并增加

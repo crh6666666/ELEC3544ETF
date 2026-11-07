@@ -1,0 +1,10 @@
+{
+  "experiments/refinement_v2/ranking_summary.csv": "5eb5dc70bdfa4ef8138d024d43b328f6ed1eac41927aafcdeab651cdd18f6462",
+  "experiments/refinement_v2/portfolio_summary.csv": "55d2e58c77f3974fc99398a6daab7b7aeb941b9a8ad31eb4374e49b1a09f4c0d",
+  "experiments/refinement_v2/cash_dividend_verified/daily_ledger.csv": "6f7bf20a1356084408459c76f77fef72ec6096abbfe4ee6c864f2b6bd49ff6ee",
+  "data/issuer_evidence/reconciled_distributions.csv": "b2ca9d802d5cd887cb97303ab2c69f57dba0eae17924e28e9ad23125cccdf1ee",
+  "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+  "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d",
+  "prepared_data/weekly_candidates.csv": "8502819b5985e352890697cd07f06520f25e52d6529406c23c7c2c9fef204677",
+  "build_research_evidence.py": "d877aabda9eb1c8ac73c4d1bdbba90613a179336d9a031f714e844d2480e210e"
+}

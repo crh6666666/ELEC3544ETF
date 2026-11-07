@@ -1,0 +1,9 @@
+{
+  "rows": 2838,
+  "mean_absolute_difference": 2.4476617427016374e-06,
+  "max_absolute_difference": 0.00033011163531126986,
+  "p99_absolute_difference": 5.139803205918236e-05,
+  "definition": "Issuer buy-and-hold open return plus gross dividend entitlements; no reinvestment/fees/tax; unpaid face value included",
+  "boundary": "Entry < ex-date <= exit; entry on ex-date earns no entitlement; selling on ex-date retains entitlement",
+  "limitation": "Label comparison only; does not refit or demonstrate model improvement"
+}
