@@ -1,5 +1,50 @@
 # ELEC3544ETF：独立模型调试项目
 
+## 最新：2026数据已获取并按冻结方案评价
+
+见 [DATA_ACCESS_FIX.md](DATA_ACCESS_FIX.md)。数据源改为显式保存的Nasdaq快照，
+完成15,060条重叠记录核对。2026年42周结果在`experiments/new_period_2026/`：
+七特征回归Top5为13.76%，九特征6.62%，等权11.37%，SPY11.62%。
+收益差Bootstrap区间跨零；保留来源替代与SPY单日低质量记录限制。
+早期文档的“2026尚未评分/下载受阻”是历史状态，以本节和新报告为准。
+
+## 小组快速开始
+
+最终研究主线和评分证据索引见 [PROJECT_STORY.md](PROJECT_STORY.md)。
+安装实测依赖：`python -m pip install -r requirements-research.txt`。
+
+- `python project.py check`：运行21个测试，并离线复核发行人分红。
+- `python project.py report --output reports/my_evidence`：从已保存结果生成三张主图、
+  两张主表及分红标签审计；输出目录必须是新目录。
+- `python project.py research --output experiments/my_run`：完整重跑回顾性实验。
+
+已生成的精简证据在 [reports/focused_evidence](reports/focused_evidence)。
+主账户图采用现金分红账本，成本图采用明确标注的调整开盘近似；两者不混为同一口径。
+2026未评分，现有结果不称为新的独立测试。下文`run.py`保留为原三模型实验入口。
+
+## 2026-11-06 研究改进入口
+
+最新数据修正见`DATA_REPAIR_RESULTS.md`。已独立核对发行人240次分红，并增加
+除息日应收、支付日后可用现金账户。最终账户结果位于
+`experiments/refinement_v2/cash_dividend_verified/`。
+离线复核：`python issuer_dividends.py --offline`；新账户复现：
+`python dividend_account.py --output experiments/my_cash_account`。
+预留新数据评价规则见`NEW_DATA_PROTOCOL.md`，2026尚未评分。
+
+新增统一实验：`python run_research.py --output experiments/my_refinement_run`。
+输出目录必须不存在，便于保留历史结果。已运行结果在
+`experiments/refinement_v2/`；结论见 `REFINEMENT_RESULTS.md`，固定实验规则见
+`RESEARCH_PROTOCOL.md`。原三模型入口仍是下文的 `run.py`。
+
+新实验包括动量/反转基准、验证期选择基准、20/60日模型特征、逐项中期特征消融、
+相对SPY与自身动量对照、回归与直接排序、四个时间窗口、价格与调整后收益近似、
+Top3/Top5/缓冲调仓、成本敏感性、现金匹配以及按周分块Bootstrap。
+Top5满足单ETF20%上限；Top3是集中持仓对照。调整后收益不等于实际分红到账账户。
+所有时期均属回顾性探索，不称为新的独立测试。
+
+新入口的实测依赖见 `requirements-research.txt`，使用Python 3.12。
+验证：`python -m unittest test_portfolio test_prediction_comparison test_research`。
+
 本目录为原行业 ETF 项目的独立精简副本（整理日期：2026-11-04）。使用当前已下载的 2021—2025 年数据，分别调试 Ridge、Random Forest 和 XGBoost；无需引用原项目的代码、数据或虚拟环境。
 
 ## 从这里开始

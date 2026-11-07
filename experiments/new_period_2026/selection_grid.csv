@@ -1,0 +1,9 @@
+Method,SelectionIC,Depth,Trees,Selected
+reg_extended7,0.09382538638845977,2,50,False
+reg_extended7,0.09422813505941621,2,100,True
+reg_extended7,0.07294375680098257,3,50,False
+reg_extended7,0.08384151628455953,3,100,False
+reg_extended9,0.07868204963819787,2,50,False
+reg_extended9,0.08187068459134741,2,100,True
+reg_extended9,0.037088628183059226,3,50,False
+reg_extended9,0.08054244111937243,3,100,False

@@ -1,0 +1,18 @@
+{
+  "status": "retrospective_exploratory",
+  "horizons": [
+    5,
+    20,
+    60
+  ],
+  "convention": "close_t / close_t_minus_h - 1; signal close, next session open entry",
+  "holdings": "Top 3, each 1/3; weekly rebalance; terminal liquidation",
+  "returns": "price only; cash dividends excluded",
+  "tests": "truncated-history scores, original 5d feature, open labels, original portfolios reconciled",
+  "hashes": {
+    "experiments/sector_ranking/03_walk_forward/run_01/eval_scores.csv": "bc6f07e60c14c53ef9839be0620d741a1c663c8d31076dff41bc514a70163e88",
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "plot_portfolio.py": "40c577ff7585ed783b1e93aa1f6454e3202093ac09fa0175a358774260a59de5",
+    "run_momentum_comparison.py": "254878a6969db52b2b93b3ffb440d734a3148e071d4ccb28dcd6f2abb9411a7b"
+  }
+}

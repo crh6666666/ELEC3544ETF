@@ -1,0 +1,11 @@
+{
+  "gross_before_tax": true,
+  "cash_interest": 0,
+  "one_way_cost_bps": 10,
+  "signal_training": "frozen retrospective signals, not new model test",
+  "entitlement": "shares carried into ex-date open; entry on ex-date earns nothing; exit on ex-date retains entitlement",
+  "availability": "first observed session open strictly after issuer payable date",
+  "receivable": "face value in NAV; cannot finance trades; residual receivables shown separately at terminal open",
+  "share_units": "Yahoo split-adjusted units; issuer per-share amounts converted once",
+  "uncertainty": "Issuer historical distribution data, not point-in-time publication archive; no actual tax/settlement/friction model"
+}

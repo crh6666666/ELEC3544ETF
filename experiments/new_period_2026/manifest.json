@@ -1,0 +1,22 @@
+{
+  "status": "NEW_PERIOD_EVALUATED_UNDER_PREVIOUSLY_FROZEN_RULES",
+  "claim_boundary": "Pipeline-unscored period, group-wide prior access unverified; source substitution disclosed",
+  "selected_baseline": "momentum_5",
+  "fit_weeks": 195,
+  "selection_weeks": 51,
+  "evaluation_weeks": 42,
+  "start": "2026-01-05",
+  "end": "2026-10-26",
+  "warning": "Nasdaq SPY 2026-04-20 missing volume and flat OHLC retained as supplied and flagged; SPY volume not used; independent 2026 quotes not certified",
+  "dividend_factor": "issuer previous-close multiplier, terminal-normalized; not historical publication-vintage certified",
+  "hashes": {
+    "NEW_DATA_PROTOCOL.md": "bcb203a6d6a7074295f9a9fa973f3a172d2869059298ad9f1454dc1875b11f75",
+    "NEW_DATA_ADDENDUM.md": "7e87cbb73e03c3c63cc6a4e2d8ca593758ced3b8e42ddbe4e10148b076e850cb",
+    "evaluate_new_period.py": "d409cdb8e4c3b4dce9ea1d29642c833f3489c2f07438f11625b83833c04c5d36",
+    "run_research.py": "12f90840e13c32ab5db4385a5cdf912d47cc5a6a91fa869f7065837e6185c0c7",
+    "dividend_account.py": "aa698947508b57963dafe91fc1da21d4a82759a44196aecae645b6edb59f657b",
+    "data/nasdaq_20261107/daily_prices.csv": "18984894708d7ed8234f5f911a63fae2771e1eb0b12d35a6837f1b10e98f3609",
+    "data/daily_prices.csv": "3292b4cf0f23db2700bdaddaf328b5927c74d85886f88a05bbbd06271b68d6b3",
+    "data/spy_daily_prices.csv": "f989789e8bf8c476e90d81779fcd0b9cf642f40c3b562f71ac001ebd4090971d"
+  }
+}
